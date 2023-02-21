@@ -15,6 +15,6 @@ app.use("/",Routes)
 
  
 Connection()
-const PORT=9090
+const PORT=8080
 
 app.listen(PORT,()=>console.log(`Your server is running Successfully on PORT ${PORT}`)) 
